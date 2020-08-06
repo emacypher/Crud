@@ -39,12 +39,12 @@
                         <input type="text" name="retraso" class="form-control" placeholder="retraso" >
                         </input>
                     </div>
-                    <input type="submit" class="btn btn-success btn-block" name="save_task" value="Save Task">
+                    <input type="submit" class="btn btn-success btn-block" name="save_task" value="Guardar Tarea">
                 </form>
             </div>
         </div>
         <div class="col-md-8">
-            <table class="table table-bordered">
+            <table class="tablita table table-bordered">
                 <thead>
                     <tr>
                         <th>Tarea</th>
