@@ -32,7 +32,7 @@ if(isset($_GET['id'])){
         $asistencia = $_POST['asistencia'];
         $retraso = $_POST['retraso'];        
 
-        $query = "UPDATE task SET descripcion = '$descripcion', fechainicial = '$fechainicio', fechafinal = '$fechafin', integrante = '$integrante', proyecto = '$proyecto' observacion = '$observacion' , asistencia = '$asistencia', retraso = '$retraso' WHERE id = $id";
+        $query = "UPDATE task SET descripcion = '$descripcion', fechainicial = '$fechainicio', fechafinal = '$fechafin', integrante = '$integrante', proyecto = '$proyecto', observacion = '$observacion' , asistencia = '$asistencia', retraso = '$retraso' WHERE id = $id";
         mysqli_query($conn, $query);
 
         $_SESSION['message'] = 'Cambios realizados';
